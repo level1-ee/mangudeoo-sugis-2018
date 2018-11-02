@@ -1,0 +1,15 @@
+.c-section-body {
+  &:after {
+    content: "";
+    display: block;
+    width: 200px;
+    border-bottom: 1px solid $primary-red;
+    margin: 80px auto;
+  }
+
+  p {
+    font-size: 22px;
+    margin-bottom: 1em;
+    line-height: 1.8;
+  }
+}
