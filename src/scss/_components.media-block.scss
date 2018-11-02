@@ -1,0 +1,33 @@
+.c-media-block {
+  display: flex;
+
+  &__figure {
+    flex: 1;
+    margin-right: 50px;
+
+    img {
+      border-radius: $border-radius;
+      box-shadow: $box-shadow;
+      display: block;
+    }
+  }
+
+  &__body {
+    flex: 1.5;
+  }
+}
+
+.c-media-block-list {
+  > .c-media-block:nth-child(even) {
+    flex-direction: row-reverse;
+
+    .c-media-block__figure {
+      margin-left: 50px;
+      margin-right: 0;
+    }
+  }
+
+  > .c-media-block {
+    margin-bottom: 100px;
+  }
+}

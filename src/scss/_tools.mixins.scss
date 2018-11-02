@@ -1,0 +1,57 @@
+//  ## Media query and orietation mixins
+//  ==================================================
+//  http://alwaystwisted.com/post.php?s=2013-04-01-my-media-query-mixin
+
+@mixin mq($point, $query1: min, $query2: width) {
+  @media screen and (#{$query1}-#{$query2}: $point) {
+    @content;
+  }
+}
+
+// Only display content to screen readers
+//
+// See: http://a11yproject.com/posts/how-to-hide-content
+// See: http://hugogiraudel.com/2016/10/13/css-hide-and-seek/
+
+@mixin sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+  border: 0;
+}
+
+// Use in conjunction with .sr-only to only display content when it's focused.
+//
+// Useful for "Skip to main content" links; see https://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
+//
+// Credit: HTML5 Boilerplate
+
+@mixin sr-only-focusable {
+  &:active,
+  &:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+    clip-path: none;
+  }
+}
+
+// Image Replacement
+
+@mixin ir() {
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  // background: url(test.png);
+  // width: 300px;
+  // height: 75px;
+}

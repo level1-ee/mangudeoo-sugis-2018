@@ -1,0 +1,9 @@
+.o-wrap {
+  margin: 0 auto;
+  max-width: (1090px + $gutter * 2);
+  padding: 0 $gutter;
+}
+
+.o-wrap--wide {
+  max-width: (1640px + $gutter * 2);
+}

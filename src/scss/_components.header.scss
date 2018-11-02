@@ -1,0 +1,25 @@
+.c-header {
+  font-size: 70px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: $primary-red;
+  position: relative;
+  margin-bottom: 80px;
+
+  span {
+    background-color: $dark;
+    z-index: 1;
+    position: relative;
+    padding-right: 30px;
+  }
+
+  &:after {
+    content: "";
+    border-bottom: 1px solid $primary-red;
+    width: 100%;
+    display: block;
+    top: 50%;
+    transform: translatey(-50%);
+    position: absolute;
+  }
+}

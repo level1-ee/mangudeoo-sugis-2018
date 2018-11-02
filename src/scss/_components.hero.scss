@@ -1,0 +1,39 @@
+.c-hero {
+  background-color: $dark;
+  margin-bottom: 80px;
+
+  > .o-wrap {
+    position: relative;
+  }
+}
+
+.c-hero__title {
+  @include ir;
+  background-image: url("../img/logo-mangudeoo.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 584px;
+  height: 173px;
+  margin: 40px auto;
+  position: relative;
+}
+
+.c-hero__video {
+  iframe {
+    height: 500px;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+  }
+}
+
+.c-hero__bg {
+  background-image: url(../img/hero-oo-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

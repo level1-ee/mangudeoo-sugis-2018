@@ -1,0 +1,146 @@
+// # SETTINGS
+//   Global variables and config
+@import "settings.variables";
+
+// # TOOLS
+//   Mixins and functions
+@import "tools.mixins";
+
+// # BASE/GENERIC
+@import "base.normalize";
+@import "base.reset";
+
+// # ELEMENTS
+//   Unclassed elements
+@import "base.body";
+
+// # OBJECTS
+//   Cosmetic-free abstractions, and design patterns
+@import "objets.wrap";
+
+// # VENDOR
+
+// # UTILITIES
+//   Single class helpers for quick styling
+
+// # COMPONENTS
+//   Chunks of ui
+@import "components.hero";
+@import "components.nav";
+@import "components.button";
+@import "components.wat";
+@import "components.header";
+@import "components.body-text";
+@import "components.media-block";
+@import "components.poster";
+
+// body {
+//   margin: 0 auto;
+//   background-color: #7e5f7f;
+// }
+
+// .content {
+//   margin-right: 100px;
+//   color: rgb(238, 238, 238);
+// }
+
+// .section {
+//   text-align: center;
+//   margin: 400px 0;
+// }
+
+// .main--title {
+//   font-size: 4em;
+//   margin: 200px auto 100px auto;
+// }
+
+// .main--time h4 {
+//   font-size: 2.2em;
+//   margin: 0;
+// }
+
+// .main--age {
+//   margin: 50px auto 0 auto;
+//   border: 1px solid white;
+//   width: 100px;
+//   border-radius: 50%;
+// }
+
+// /* Tournament grid */
+
+// .section--tournament {
+//   display: grid;
+//   grid-template-columns: 50% 50%;
+//   grid-gap: 80px 0;
+// }
+
+// .introduction--tournament-1 {
+//   grid-column: 1;
+//   grid-row: 1;
+// }
+
+// .image--tournament-1 {
+//   grid-column: 2;
+//   grid-row: 1;
+// }
+
+// .introduction--tournament-2 {
+//   grid-column: 2;
+//   grid-row: 2;
+// }
+
+// .image--tournament-2 {
+//   grid-column: 1;
+//   grid-row: 2;
+// }
+
+// .introduction--tournament-3 {
+//   grid-column: 1;
+//   grid-row: 3;
+// }
+
+// .image--tournament-3 {
+//   grid-column: 2;
+//   grid-row: 3;
+// }
+
+// .introduction--tournament-1,
+// .image--tournament-2,
+// .introduction--tournament-3 {
+//   align-self: right;
+//   justify-self: right;
+// }
+
+// .image--tournament-1,
+// .introduction--tournament-2,
+// .image--tournament-3 {
+//   align-self: left;
+//   justify-self: left;
+// }
+
+// /* Introduction content*/
+
+// .introduction {
+//   width: 50%;
+// }
+
+// .introduction--tournament-1,
+// .introduction--tournament-3 {
+//   text-align: right;
+//   margin-right: 60px;
+// }
+
+// .introduction--tournament-2 {
+//   text-align: left;
+//   margin-left: 60px;
+// }
+
+// .image--tournament-1,
+// .image--tournament-2,
+// .image--tournament-3 {
+//   width: 60%;
+// }
+
+// .introduction--rules {
+//   margin-bottom: 0;
+// }

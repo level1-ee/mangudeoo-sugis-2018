@@ -1,0 +1,15 @@
+$gutter: 20px;
+$dark: #101010;
+$light: #fff;
+$primary-red: #ec2027;
+$system-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$font-family: Rajdhani, $system-font-stack;
+$border-radius: 5px;
+$box-shadow: 0 5px 50px black;
+
+$zindex: (
+  header: 1000,
+  hero: 500
+);

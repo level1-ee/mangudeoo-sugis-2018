@@ -1,0 +1,38 @@
+.c-wat__buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  > * {
+    margin: 0 15px;
+  }
+}
+
+.c-wat__cta {
+  font-size: 27px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.05em;
+  margin-bottom: 45px;
+
+  p:first-child {
+    font-size: 30px;
+  }
+}
+
+.c-wat__body {
+  &:after {
+    content: "";
+    display: block;
+    width: 200px;
+    border-bottom: 1px solid $primary-red;
+    margin: 80px auto;
+  }
+
+  p {
+    font-size: 22px;
+    margin-bottom: 1em;
+    line-height: 1.8;
+  }
+}

@@ -1,0 +1,53 @@
+.c-nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $dark;
+  padding: 10px 0;
+  margin-bottom: 60px;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+    &:before {
+      content: "";
+      display: block;
+      width: 800px;
+      border-bottom: 1px solid $primary-red;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  li {
+    position: relative;
+    background-color: $dark;
+
+    &:first-child {
+      padding-left: 30px;
+    }
+    &:last-child {
+      padding-right: 30px;
+    }
+  }
+
+  a {
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: $light;
+
+    &:hover {
+      color: $primary-red;
+    }
+  }
+}

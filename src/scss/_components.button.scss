@@ -1,0 +1,18 @@
+.c-button {
+  border-radius: $border-radius;
+  background-color: #2b0204;
+  border: 1px solid $primary-red;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 3px;
+  display: inline-block;
+  text-decoration: none;
+  color: $primary-red;
+  text-transform: uppercase;
+  padding: 12px 60px;
+}
+
+.c-button--small {
+  font-size: 13px;
+  padding: 10px 20px;
+}
