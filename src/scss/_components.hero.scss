@@ -25,14 +25,14 @@
 
 .c-hero__video {
   iframe {
-    height: 500px;
+    height: 600px;
     border-radius: $border-radius;
     box-shadow: $box-shadow;
   }
 }
 
 .c-hero__bg {
-  background-image: url(../img/hero-oo-bg.jpg);
+  background-image: url(../img/header-oo.jpg);
   background-size: cover;
   background-position: center center;
   min-height: 500px;
@@ -40,4 +40,8 @@
   top: 0;
   left: 0;
   width: 100%;
+
+  .moo-paev & {
+    background-image: url(../img/header-paev.jpg);
+  }
 }
