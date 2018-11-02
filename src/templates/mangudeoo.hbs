@@ -1,4 +1,4 @@
-{{> head }}
+{{> head title="MängudeÖÖ"}}
 
 <section class="c-hero">
   <div class="c-hero__bg"></div>
@@ -13,9 +13,9 @@
 
 <nav class="c-nav">
   <ul>
-    <li><a href="#">Ajakava</a></li>
-    <li><a href="#">Turniirid</a></li>
-    <li><a href="#">Funarea</a></li>
+    <li><a href="#ajakava" class="js-scroll-to">Ajakava</a></li>
+    <li><a href="#turniirid" class="js-scroll-to">Turniirid</a></li>
+    <li><a href="#funarea" class="js-scroll-to">Funarea</a></li>
   </ul>
 </nav>
 
@@ -51,7 +51,14 @@
   </figure>
 </div>
 
-<div class="o-wrap">
+<div class="o-wrap" id="ajakava">
+  <h2 class="c-header"><span>Ajakava</span></h2>
+  <section class="c-schedule">
+    <p>Ajakava avaldatakse 06.11.2018</p>
+  </section>
+</div>
+
+<div class="o-wrap" id="turniirid">
   <section>
     <h2 class="c-header"><span>Turniirid</span></h2>
     <div class="c-section-body">
@@ -164,9 +171,9 @@
   </figure>
 </div>
 
-<div class="o-wrap">
+<div class="o-wrap" id="funarea">
   <section>
-    <h2 class="c-header"><span>Fun Area</span></h2>
+    <h2 class="c-header"><span>Funarea</span></h2>
     <div class="c-section-body">
       <p>
         Alati ei pea kiirustama, et turniirist osa võtta! Vahel võib aja maha võtta, istuda ning nautida kas kõige
