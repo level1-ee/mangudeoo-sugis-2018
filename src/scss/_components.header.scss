@@ -4,7 +4,15 @@
   text-transform: uppercase;
   color: $primary-red;
   position: relative;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
+
+  .moo-paev & {
+    color: $primary-blue;
+
+    &:after {
+      border-color: $primary-blue;
+    }
+  }
 
   span {
     background-color: $dark;

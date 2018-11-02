@@ -10,13 +10,17 @@
 .c-hero__title {
   @include ir;
   background-image: url("../img/logo-mangudeoo.svg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
   width: 584px;
   height: 173px;
   margin: 40px auto;
   position: relative;
+
+  .moo-paev & {
+    background-image: url("../img/logo-mangudeoo-paev.svg");
+  }
 }
 
 .c-hero__video {

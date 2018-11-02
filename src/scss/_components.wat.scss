@@ -22,13 +22,7 @@
 }
 
 .c-wat__body {
-  &:after {
-    content: "";
-    display: block;
-    width: 200px;
-    border-bottom: 1px solid $primary-red;
-    margin: 80px auto;
-  }
+  margin-bottom: 60px;
 
   p {
     font-size: 22px;

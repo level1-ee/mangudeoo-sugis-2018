@@ -7,6 +7,10 @@
     margin: 80px auto;
   }
 
+  .moo-paev &:after {
+    border-color: $primary-blue;
+  }
+
   p {
     font-size: 22px;
     margin-bottom: 1em;

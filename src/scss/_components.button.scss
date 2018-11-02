@@ -10,6 +10,12 @@
   color: $primary-red;
   text-transform: uppercase;
   padding: 12px 60px;
+
+  .moo-paev & {
+    border-color: $primary-blue;
+    background-color: rgba($primary-blue, 0.2);
+    color: $primary-blue;
+  }
 }
 
 .c-button--small {
