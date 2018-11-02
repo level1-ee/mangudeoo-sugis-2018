@@ -1,0 +1,71 @@
+.c-home {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  // background-color: rgba($dark, 0.9);
+
+  > * {
+    min-height: 100vh;
+    flex: 1;
+  }
+
+  &__paev {
+    background-color: rgba($primary-blue, 0.5);
+  }
+
+  &__oo {
+    background-color: rgba($dark, 0.7);
+  }
+}
+
+.c-home-block {
+  padding: 50px;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    max-width: 400px;
+    margin-bottom: 40px;
+  }
+}
+
+.c-home-block__cta {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  max-width: 400px;
+  margin-bottom: 40px;
+
+  p {
+    margin-bottom: 1em;
+  }
+}
+
+.c-index-video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%;
+    min-height: 100%;
+
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
