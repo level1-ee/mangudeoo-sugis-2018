@@ -3,4 +3,9 @@
     box-shadow: $box-shadow;
     border-radius: $border-radius;
   }
+
+  figcaption {
+    text-align: right;
+    font-size: 12px;
+  }
 }
