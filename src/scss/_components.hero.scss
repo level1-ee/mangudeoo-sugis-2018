@@ -32,7 +32,8 @@
 }
 
 .c-hero__bg {
-  background-image: url(../img/header-oo.jpg);
+  background-image: linear-gradient(rgba(black, 1), rgba($primary-red, 0.55)),
+    url(../img/header-oo.jpg);
   background-size: cover;
   background-position: center center;
   min-height: 500px;
@@ -42,6 +43,7 @@
   width: 100%;
 
   .moo-paev & {
-    background-image: url(../img/header-paev.jpg);
+    background-image: linear-gradient(rgba(black, 1), rgba($primary-blue, 0.55)),
+      url(../img/header-paev.jpg);
   }
 }
