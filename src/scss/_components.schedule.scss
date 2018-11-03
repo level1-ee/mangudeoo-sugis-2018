@@ -1,8 +1,36 @@
 .c-schedule {
-  p {
-    text-align: center;
-    margin: 200px;
+  margin-bottom: 100px;
+
+  h3 {
+    margin-bottom: 0.5em;
     font-size: 25px;
-    color: rgba(#fff, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  table {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  th {
+    text-align: left;
+    color: rgba(#fff, 0.3);
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    padding-bottom: 0.4em;
+  }
+
+  td {
+    font-size: 20px;
+    padding-bottom: 4px;
+  }
+
+  tr > td:first-child {
+    width: 150px;
+  }
+  tr > td:last-child {
+    font-weight: bold;
   }
 }
