@@ -18,10 +18,14 @@
         <div class="c-media-block__body">
           <div class="c-body-text">
             <h3>Loengusaal</h3>
+            {{#if oo}}
+            <p>MängudeÖÖ loengusaali õhtune programm keskendub Eesti videomängumaastikkule ja seda nii mitmeski mõttes. Õhtut alustab paneelareutelu e-spordi kui tõsiseltvõetava spordivaldkonna üle, kus diskuteerivad e-sportlane ja Eesti Olümpiakomitee esindaja. Lisaks sellele toome teieni veel ühe paneelarutelu virtuaalreaalsuse olemuse kohta. Edvin Aedma tutvustab oma auhindu pälvinud mängu “Shortest Trip to Earth”, Karl-Erik Saks räägib mängukontrollerist kui mängudega suhestumise vahendist, ning Lauri Kubre vaatab, kuidas õudusmängud meile naha alla poevad.</p>
+            {{else}}
             <p>MängudeÖÖ päevasel üritusel õpetatakse loengusaalis uusi ja kasulikke oskuseid. Räägime sellest, kuidas
               ise ägedat mänguriarvutit kokku panna ja kuidas saada häkkeriks. Lisaks tutvustavad kohalikud
               õppeasutused võimalusi, kuidas Eestis mängutegijaks saada.
             </p>
+            {{/if}}
           </div>
         </div>
       </div>
@@ -43,6 +47,7 @@
         </div>
       </div>
 
+      {{#unless oo}}
       <div class="c-media-block">
         <div class="c-media-block__figure">
           <img src="img/speedrun.jpg" alt="">
@@ -58,19 +63,7 @@
           </div>
         </div>
       </div>
-
-      <div class="c-media-block">
-        <div class="c-media-block__figure">
-          <img src="img/arms.jpg" alt="">
-        </div>
-        <div class="c-media-block__body">
-          <div class="c-body-text">
-            <h3>Arms</h3>
-            <p>Absoluutselt iga kaklus möödub sujuvamalt, kui kõrval on inimene, keda usaldad! Võta sõber külje alla,
-              otsustage, kumb teist on vasak ja kumb parem käsi ning anna meie Arms 2v2 turniiri vastastele kere peale!</p>
-          </div>
-        </div>
-      </div>
+      {{/unless}}
 
       <div class="c-media-block">
         <div class="c-media-block__figure">
@@ -79,6 +72,7 @@
         <div class="c-media-block__body">
           <div class="c-body-text">
             <h3>Virtuaalreaalsus</h3>
+            <p>See poleks MängudeÖÖ, kui me ei võimaldaks sul mõneks hetkeks ürituse nelja seina vahelt virtuaalreaalsusesse põgeneda. Kohal on kõikvõimalikud erinevad vidinad, mis lubavad sul kas kahes maailmas korraga joosta või näiteks fiktiivsete mõõkadega muusikat pooleks lõigata!</p>
           </div>
         </div>
       </div>
